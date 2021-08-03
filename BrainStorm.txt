@@ -1,0 +1,35 @@
+I am thinking of considering the biding and the advertisement each
+has it's own Environment separated at least in the begining
+
+- two binary features:
+I think these are the click of the user
+and whether the user will buy or not
+
+- Imagine three classes of customers C1, C2, C3, each
+corresponding to a subspace of the features’ space:
+that means we will need to have different subcampaign for each
+category which means that we'll probably need different gaussian
+process for each class and different bidding and daily budget
+
+
+
+
+- a stochastic number of daily clicks of new users (i.e., that have never clicked before
+these ads) as a function depending on the bid: 
+
+	def fun(x):
+	    # the real function to estimate
+	    return 100 * (1.0 - np.exp(-4*x+3*x**3))
+
+- a daily stochastic cost per click as a function of the bid:
+
+- a conversion rate function providing the probability that a user will buy the item given
+a price: 
+
+	p = np.array([0.15, 0.1, 0.1, 0.35])
+
+
+
+- a distribution probability over the number of times the user will come back to the
+ecommerce website to buy that item by 30 days after the first purchase (and simulate
+such visits in future):

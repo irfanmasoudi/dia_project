@@ -1,0 +1,30 @@
+{
+    "campaigns": [
+        {
+            "sigma": 2.0,
+            "subcampaigns": {
+                "Adult-Risky": 
+                    {
+                        "max_click_value": 150, 
+                        "max_cost_value": 0.5,
+                        "mean_value": 3
+                    }
+                ,
+                "Adult-NotRisky": 
+                    {
+                        "max_click_value": 80,
+                        "max_cost_value": 0.10,
+                        "mean_value": 4
+                    }
+                ,
+                "Young-NotRisky": 
+                    {
+                        "max_click_value": 60,
+                        "max_cost_value": 0.7,
+                        "mean_value": 6
+                    } 
+            }
+        }
+    ]
+}
+
