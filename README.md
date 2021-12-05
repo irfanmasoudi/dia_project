@@ -1,5 +1,7 @@
 ## DIA-project
 
+#Advertising and Pricing
+
 Scenario. Consider the scenario in which advertisement is used to attract users on an ecommerce website and the users, after the purchase of the first unit of a consumable item, will buy additional units of the same item in future. The goal is to find the best joint bidding and pricing strategy taking into account future purchases.
 
 Environment. Imagine a consumable item (for which we have an infinite number of units) and two binary features. Imagine three classes of customers C1, C2, C3, each corresponding to a subspace of the features’ space. Each customers’ class is characterized by:
